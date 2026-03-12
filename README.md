@@ -19,6 +19,13 @@ This analysis integrates five key datasets:
 
 *Note: The product data is real-world data, while the customer data is synthetic.*
 
+## Data Access
+The dataset used in this project includes a large product file (`jcpenney_products.json`) that exceeds standard repository size limits. You can download the complete dataset from the link below:
+
+**[Download JC Penney Dataset - Google Drive](https://drive.google.com/file/d/1FWzSFpY0YzV48AjENF99BKkEBqIKlgW2/view?usp=sharing)**
+
+After downloading, please place the files in a folder named `/data` within the project directory to ensure the notebook runs correctly.
+
 ## Key Features & Techniques
 * **Data Cleaning:** Robust handling of `NaN` values and data type standardization.
 * **Image Handling:** Automated workflows to fetch, process, and display product imagery from URLs.
